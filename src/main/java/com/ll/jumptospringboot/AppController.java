@@ -71,7 +71,7 @@ public class AppController {
 
     @GetMapping("/jy")
     public String jy() {
-        return "";
+        return "jy";
     }
 }
 
