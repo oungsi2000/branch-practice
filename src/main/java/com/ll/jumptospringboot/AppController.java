@@ -68,5 +68,10 @@ public class AppController {
         }
         return "redirect:/";
     }
+
+    @GetMapping("/jy")
+    public String jy() {
+        return "";
+    }
 }
 
